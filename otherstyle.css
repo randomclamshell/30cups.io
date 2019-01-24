@@ -1,8 +1,7 @@
 
 body {
-  background-color: #EAE7DC;
-  padding: 15px;
-
+ 
+margin-bottom: 0;
 }
 
 .nav {
@@ -146,6 +145,7 @@ form {
 /* contact us */
 .bg3::after {
   background-image: url('https://images.pexels.com/photos/159020/sunset-sky-afterglow-evening-sky-159020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size:cover;
 }
 
 /* REPEAT ABOVE AS NEEDED */
