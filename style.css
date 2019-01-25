@@ -3,7 +3,7 @@ html {
   overflow: hidden;
 }
 body {
-  color: #ffffff;
+  color: #d8c3a5;
   margin: 0;
   padding: 0;
   perspective: 1px;
@@ -15,11 +15,12 @@ body {
 }
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: blueviolet;
+  color: #e85a4f;
   font-size: 350%;
   text-align: center;
-  text-shadow: 3px 3px red;
+  text-shadow: 3px 3px #53311e;
 }
+
 
 .slide {
   position: relative;
@@ -47,25 +48,26 @@ h1 {
 
 
 #intro {
-  background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image:url(https://images.pexels.com/photos/1415555/pexels-photo-1415555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=3500);
   z-index: 2;
 }
 
 #aboutUs:before {
-background-image: url("https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+background-image:url(https://images.pexels.com/photos/880639/pexels-photo-880639.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=3500);
 transform: translateZ(-1px) scale(2);
 }
 
 #meetTheTeam {
-  background-image: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5000);
   z-index: 2;
 }
 
 .flip-card {
   background-color: transparent;
   width: 295px;
-  height: 200px;
+  height: 400px;
   border: 1px solid #f1f1f1;
+  border-radius: 11px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -94,35 +96,37 @@ transform: translateZ(-1px) scale(2);
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color:  #e85a4f;
   color: black;
+  border-radius: 9px;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #8e8d8a;
   color: white;
+  border-radius: 9px;
   transform: rotateY(180deg);
 }
 
 
-#services:before {
-  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: translateZ(-1px) scale(2);
-}
+
 
 #work {
-  background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(https://images.pexels.com/photos/880639/pexels-photo-880639.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=3500);
   z-index: 2;
 }
 
 #contact:before {
-  background-image: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=3500);
   transform: translateZ(-1px) scale(2);
 }
 
 #message {
-  background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5500);
   z-index: 2;
 }
 
+p {
+  color: #53311e;
+}
