@@ -143,3 +143,8 @@ border-radius: 15px;
 p {
   color: #53311e;
 }
+
+video {
+  width: 100%;
+  height: 10%;
+}
