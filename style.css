@@ -12,16 +12,61 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 
 }
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #e85a4f;
-  font-size: 350%;
+  font-size: 550%;
   text-align: center;
   text-shadow: 3px 3px #53311e;
+  margin: 50px;
+}
+h2 {
+  color: #53311e;
+  font-size: 500%;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  text-shadow: 3px 3px #e85a4f;
 }
 
+img {
+  height:100px;
+  width: 100px;
+  image-orientation: flip;
+  image-resolution: 300dpi;
+}
+
+div.col {
+  color: #53311e;
+}
+
+button {
+  color: #e85a4f;
+  background: #8e8d8a;
+  border-radius: 155px;
+  border-color: #53311e;
+  width: 100px;
+}
+
+button, select {
+  color: #53311e;
+  background: #d8c3a5;
+}
+
+input.form-control {
+  background-color: #eae7dc;
+  border-radius: 15px;
+  border-color: #53311e;
+}
+
+textarea.form-control {
+  background: #eae7dc;
+  border-radius: 15px;
+  border-color: #53311e;
+
+}
 
 .slide {
   position: relative;
@@ -31,8 +76,7 @@ h1 {
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgb(0, 0, 0, .7);
   transform-style: inherit;
-  border-radius:15px;
-  
+  border-radius:15px;  
 }
 
 .slide:before {
@@ -74,10 +118,10 @@ border-radius: 15px;
 
 .flip-card {
   background-color: transparent;
-  width: 295px;
-  height: 400px;
+  width: 495px;
+  height: 500px;
   border: 4px solid #53311e;
-  border-radius: 15px;
+  border-radius: 255px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -108,14 +152,19 @@ border-radius: 15px;
 .flip-card-front {
   background-color:  #e85a4f;
   color: #53311e;
-  border-radius: 15px;
+  border-radius: 255px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+
 }
 
 /* Style the back side */
 .flip-card-back {
   background-color: #8e8d8a;
   color: #53311e;
-  border-radius: 15px;
+  border-radius: 255px;
   transform: rotateY(180deg);
 }
 
@@ -146,5 +195,16 @@ p {
 
 video {
   width: 100%;
-  height: 10%;
+  height: 100%;
+}
+
+img-src {
+  image-orientation: 90deg flip;
+
+}
+
+.meetTheTeam {
+  padding-top: 400px;
+  margin-top: 50px;
+
 }
