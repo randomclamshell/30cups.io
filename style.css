@@ -1,33 +1,51 @@
 html {
   height: 100%;
   overflow: hidden;
+  border-radius: 15px;
 }
 body {
   color: #d8c3a5;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   perspective: 1px;
   transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'El Messiri', sans-serif;
   text-align: center;
-
+  background-color: #e85a4f;
+  
+  display: block;
+  
 }
+
+body:-webkit-full-page-media {
+  background-color: #e85a4f;
+  position: relative;
+}
+
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'El Messiri', sans-serif;;
   color: #e85a4f;
   font-size: 550%;
   text-align: center;
   text-shadow: 3px 3px #53311e;
   margin: 50px;
+  weight: bold;
 }
 h2 {
   color: #53311e;
   font-size: 500%;
   padding-bottom: 50px;
   margin-top: 100px;
+  text-shadow: 3px 3px #e85a4f;
+  font-family: 'El Messiri', sans-serif;;
+}
+
+h3 {
+  font-size: 78px;
+  color: #53311e;
   text-shadow: 3px 3px #e85a4f;
 }
 
@@ -40,6 +58,10 @@ img {
 
 div.col {
   color: #53311e;
+  font-size: 16px;
+  font-family: 'El Messiri', sans-serif;;
+  text-shadow: 1px 1px #53311e;
+
 }
 
 button {
@@ -99,10 +121,14 @@ textarea.form-control {
 
 
 #intro {
-  background-image:url(https://images.pexels.com/photos/1415555/pexels-photo-1415555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5500);
+  background-image:url(https://images.pexels.com/photos/158571/architecture-about-building-modern-158571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5500);
   z-index: 2;
   border-radius:15px;
-}
+  opacity:
+  
+  
+  }
+
 
 #aboutUs:before {
 background-image:url(https://images.pexels.com/photos/880639/pexels-photo-880639.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=3500);
@@ -191,11 +217,28 @@ border-radius: 15px;
 
 p {
   color: #53311e;
+  font-size: 20px;
+  text-shadow: none;
+  font-family: 'El Messiri', sans-serif;;
+
 }
 
-video {
-  width: 100%;
-  height: 100%;
+
+
+video { 
+  right: 0;
+  bottom: 0;
+  min-width: 1410px; 
+  min-height: 828px;
+  border-radius: 15px;
+}
+iframe {
+  border-radius: 15px;
+  padding: 100px;
+
+}
+html {
+  border-radius: 15px;
 }
 
 img-src {
@@ -206,5 +249,21 @@ img-src {
 .meetTheTeam {
   padding-top: 400px;
   margin-top: 50px;
+}
 
+.box {
+	max-width: 70vw;
+	padding: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+	perspective: 400px;
+}
+
+.source {
+	color: skyblue;
+	margin: 0 auto;
 }
