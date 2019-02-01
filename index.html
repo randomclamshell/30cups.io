@@ -42,7 +42,7 @@
         <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="/Users/shafiqahsharif/Desktop/30cups.io/30cups.io/assets/img/IMG_4665.JPG" alt="image" style="width:470px;height:450px;border-radius:255px;">
+                <img src="assets/img/IMG_4665.JPG" alt="image" style="width:470px;height:450px;border-radius:255px;">
               </div>
               <div class="flip-card-back">
                 <h2>Sha Sharif</h2> 
@@ -55,7 +55,7 @@
           <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/30cups.io/assets/images/30CupsLogo.jpg" alt="image" style="width:100px;height:150px;">
+                  <img src="assets/images/30CupsLogo.jpg" alt="image" style="width:100px;height:150px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>Khalid Iqbal</h2> 
@@ -67,7 +67,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="/30cups.io/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
+                    <img src="assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
                   </div>
                   <div class="flip-card-back">
                     <h2>Mike Ryan</h2> 
@@ -80,7 +80,7 @@
               <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img src="/30cups.io/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
+                      <img src="assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
                     </div>
                     <div class="flip-card-back">
                       <h2>Jen Sheidy</h2> 
@@ -145,22 +145,47 @@
    </div>
 
    <div id="contact" class="slide">
-      <form>
+      <form action="/customers.">
           <div class="form-row">
             <div class="col">
               <input type="text" class="form-control" placeholder="Name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Number">
+              <input type="tel" class="form-control" placeholder="Number">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email">
             </div>
 
           </div>
+          <!-- See recommended changes to allow for multiple service selections and clarify what this is for."-->
           <div class="col">
+              <label>What services might you be interested in? You can choose up to 3.</label>
+              <br/>
+            <select id="inlineFormCustomSelectPref">
+              <option selected>Services</option>
+              <option value="1">service 1</option>
+              <option value="2">service 2</option>
+              <option value="3">service 3</option>
+              <option value="3">service 4</option>
+              <option value="3">service 5</option>
+              <option value="3">service 6</option>
+              <option value="3">service 7</option>
+              <option value="3">service 8</option>
+            </select>
+            <select id="inlineFormCustomSelectPref">
+              <option selected>Services</option>
+              <option value="1">service 1</option>
+              <option value="2">service 2</option>
+              <option value="3">service 3</option>
+              <option value="3">service 4</option>
+              <option value="3">service 5</option>
+              <option value="3">service 6</option>
+              <option value="3">service 7</option>
+              <option value="3">service 8</option>
+            </select>
             <select id="inlineFormCustomSelectPref">
               <option selected>Services</option>
               <option value="1">service 1</option>
@@ -177,11 +202,12 @@
           <div class="form-row">
 
             <div class="col">
-              <label>How can we help?</label>
+              <label>How else can we help?</label>
               <textarea class="form-control" rows="3"></textarea>
+              <input type="submit" value="Send!">
             </div>
-          </div>
-          <button>Send!</button>
+           </div>
+           <input type="submit" value="Send!">
         </form>
    </div>
 
