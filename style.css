@@ -309,7 +309,7 @@ border-radius: 15px;
   border-radius: 15px;
 }
 #message {
-  background-image: url(https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5500);
+  /* background-image: url(https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5500); */
   z-index: 2;
   border-radius: 15px;
 }
