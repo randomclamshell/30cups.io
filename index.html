@@ -43,7 +43,7 @@
         <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="/public/assets/img/IMG_4665" alt="image" style="width:470px;height:450px;border-radius:255px;">
+                <img src="public/assets/img/IMG_4665.jpg" alt="image" style="width:470px;height:450px;border-radius:255px;">
               </div>
               <div class="flip-card-back">
                 <h2>Sha Sharif</h2> 
@@ -56,7 +56,7 @@
           <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/public/assets/images/30CupsLogo.jpg" alt="image" style="width:100px;height:150px;">
+                  <img src="public/assets/images/30CupsLogo.jpg" alt="image" style="width:100px;height:150px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>Khalid Iqbal</h2> 
@@ -68,7 +68,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="/public/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
+                    <img src="public/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
                   </div>
                   <div class="flip-card-back">
                     <h2>Mike Ryan</h2> 
@@ -81,7 +81,7 @@
               <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img src="/public/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
+                      <img src="public/assets/images/30CupsLogo.jpg" alt="image" style="width:150px;height:150px;">
                     </div>
                     <div class="flip-card-back">
                       <h2>Jen Sheidy</h2> 
@@ -146,10 +146,10 @@
    </div>
 
    <div id="contact" class="slide">
-      <form action="/customers.">
+      <form action="" onsubmit=validate()"">
           <div class="form-row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" placeholder="Name" pattern="\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b.">
             </div>
             <div class="col">
               <input type="tel" class="form-control" placeholder="Number">
